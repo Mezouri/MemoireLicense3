@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.ProfileActivity">
+
+
+    <ImageView
+        android:id="@+id/iv_profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="44dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/profile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:text="Name : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.239"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <TextView
+        android:id="@+id/tv_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:text="Phone : "
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.242"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_edit_profile"
+        android:layout_width="290dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="488dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Edit Profil"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:onClick="edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints,TextContrastCheck" />
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:id="@+id/app_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#f6f6f6"
+            android:gravity="bottom"
+            app:fabCradleMargin="8dp"
+            app:fabCradleRoundedCornerRadius="50dp"
+            app:fabCradleVerticalOffset="6dp"
+            tools:ignore="BottomAppBar,MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="DisableBaselineAlignment">
+
+                <LinearLayout
+                    android:id="@+id/homebtn"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/imgv"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/home"
+                        tools:ignore="ContentDescription,InefficientWeight,NestedWeights" />
+
+                    <TextView
+                        android:id="@+id/txtv22"
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginBottom="2dp"
+                        android:gravity="center"
+                        android:text="@string/home"
+                        android:textAlignment="center"
+                        android:textColor="#676767"
+                        android:textSize="14sp"
+                        tools:ignore="UseCompatTextViewDrawableXml,TextSizeCheck" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/homebtn1"
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/imgv1"
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="7dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/account_circle"
+                        tools:ignore="ContentDescription,InefficientWeight,NestedWeights" />
+
+                    <TextView
+                        android:id="@+id/txtv221"
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:layout_marginBottom="2dp"
+                        android:gravity="center"
+                        android:text="@string/profile"
+                        android:textAlignment="center"
+                        android:textColor="#676767"
+                        android:textSize="14sp"
+                        tools:ignore="UseCompatTextViewDrawableXml,TextSizeCheck" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/homebtn2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+
+                    <ImageView
+                        android:id="@+id/imgv2"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_marginStart="50dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/comment2"
+                        tools:ignore="ContentDescription,InefficientWeight,NestedWeights" />
+
+                    <TextView
+                        android:id="@+id/txtv2222"
+                        android:layout_width="60dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="38dp"
+                        android:layout_marginBottom="2dp"
+                        android:gravity="center"
+                        android:text="@string/comment"
+                        android:textAlignment="center"
+                        android:textColor="#676767"
+                        android:textSize="14sp"
+                        tools:ignore="UseCompatTextViewDrawableXml,TextSizeCheck" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/homebtn3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25"
+                    android:orientation="vertical"
+                    tools:ignore="UselessParent">
+                    <ImageView
+                        android:id="@+id/imgv3"
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/set"
+                        tools:ignore="ContentDescription,InefficientWeight,NestedWeights" />
+
+                    <TextView
+                        android:id="@+id/txtv223"
+                        android:layout_width="50dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginBottom="2dp"
+                        android:gravity="center"
+                        android:text="@string/setting"
+                        android:textAlignment="center"
+                        android:textColor="#676767"
+                        android:textSize="14sp"
+                        tools:ignore="UseCompatTextViewDrawableXml,TextSizeCheck" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="180dp"
+            android:layout_marginEnd="180dp"
+            android:layout_marginTop="7dp"
+            android:backgroundTint="#65C02D"
+            android:elevation="3dp"
+            android:src="@drawable/shopping_cart"
+            app:backgroundTint="#65C02D"
+            tools:ignore="ContentDescription,MissingConstraints,NotSibling,SpeakableTextPresentCheck">
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

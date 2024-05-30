@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">GASTRONOMIX</string>
+    <string name="get_started">Get Started</string>
+    <string name="gastronom_mix">Gastronom Mix</string>
+    <string name="already_a_member">Already a member ?</string>
+    <string name="sign_in">Sign In</string>
+    <string name="food">Healthy Food Delivry App</string>
+    <string name="texte">Create an account </string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="done">Done</string>
+    <string name="email_address">Email address</string>
+    <string name="pass">I forget my password</string>
+    <string name="don_t_have_account_yet">Don\'t have account yet ?</string>
+    <string name="full_name">Full name</string>
+    <string name="hi_mohamed">Hi </string>
+    <string name="order_eat"><![CDATA[Order & Eat]]></string>
+    <string name="find_your_food">Find Your Food</string>
+    <string name="free_delivry">Free Delivry</string>
+    <string name="every_sunday">Every Sunday</string>
+    <string name="order_now">Order Now</string>
+    <string name="categories">Categories</string>
+    <string name="popular">Popular</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="profile">Profile</string>
+    <string name="comment">Comment</string>
+    <string name="title">title</string>
+    <string name="price">price</string>
+    <string name="add">+Add</string>
+    <string name="_1">1</string>
+    <string name="description">description</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="my_cart">My Cart</string>
+    <string name="_0">$0</string>
+    <string name="items_total">Items Total:</string>
+    <string name="_10_numbers">10 numbers</string>
+    <string name="_8_to_12_character">8 to 12 character</string>
+    <string name="delivry_services">Delivry Services:</string>
+    <string name="tax">Tax:</string>
+    <string name="total">Total</string>
+    <string name="order">ORDER</string>
+    <string name="your_cart_is_empty">Your Cart Is Empty</string>
+    <string name="_5">0</string>
+    <string name="_25">DA</string>
+    <string name="calories">Calories :</string>
+    <string name="calories_calculator">Calories Calculator</string>
+    <string name="weight">Weight :</string>
+    <string name="height">Height :</string>
+    <string name="weight_in_kg">Height in kg</string>
+    <string name="height_in_cm">Height in cm</string>
+    <string name="age">Age :</string>
+    <string name="your_age">Your Age</string>
+    <string name="your_activities">Your Activities</string>
+    <string name="daily_calories">Enter Your informations To Calculate Your BMI And Your Daily Calories</string>
+    <string name="calculate">Calculate</string>
+    <string name="continues">Continue</string>
+    <string-array name="activities_items">
+        <item>Lightly active</item>
+        <item>Moderately active</item>
+        <item>Active</item>
+        <item>Very active</item>
+    </string-array>
+</resources>
